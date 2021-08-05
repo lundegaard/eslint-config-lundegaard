@@ -1,6 +1,6 @@
 {
 	"name": "eslint-config-lundegaard",
-	"version": "0.0.1",
+	"version": "0.1.0",
 	"description": "ESLint configuration by Lundegaard",
 	"main": "index.js",
 	"repository": "https://github.com/lundegaard/eslint-config-lundegaard",

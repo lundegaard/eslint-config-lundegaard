@@ -1,0 +1,30 @@
+{
+	"name": "eslint-config-lundegaard",
+	"version": "0.0.1",
+	"description": "ESLint configuration by Lundegaard",
+	"main": "index.js",
+	"repository": "https://github.com/lundegaard/eslint-config-lundegaard",
+	"contributors": [
+		"Tomas Konrady <tomas.konrady@lundegaard.eu>"
+	],
+	"scripts": {
+		"lint": "eslint --ext .js ./"
+	},
+	"license": "MIT",
+	"devDependencies": {
+		"@babel/core": "^7.15.0",
+		"@babel/eslint-parser": "^7.15.0",
+		"@babel/eslint-plugin": "^7.14.5",
+		"eslint": "^7.32.0",
+		"eslint-plugin-babel": "^5.3.0",
+		"eslint-plugin-import": "^2.23.4",
+		"eslint-plugin-react": "^7.24.0"
+	},
+	"peerDependencies": {
+		"@babel/eslint-parser": "^7.15.0",
+		"@babel/eslint-plugin": "^7.14.5",
+		"eslint": "^7.32.0",
+		"eslint-plugin-import": "^2.23.4",
+		"eslint-plugin-react": "^7.24.0"
+	}
+}

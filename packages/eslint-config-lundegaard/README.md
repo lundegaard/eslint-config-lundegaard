@@ -42,11 +42,11 @@ The package provides `.eslintrc.*` as an extensible shared config.
 
 The package provides `.eslintrc.*` as an extensible shared configuration.
 
-## Usage
+# Usage
 
 There are two ESLint configurations for you to use.
 
-### eslint-config-lundegaard
+## eslint-config-lundegaard
 
 The default export contains all of our ESLint rules, including ECMAScript 6+ and React. It requires `eslint`, `babel-eslint`, `eslint-plugin-babel`, `eslint-plugin-import` and `eslint-plugin-react`.
 
@@ -63,9 +63,9 @@ npm install eslint-config-lundegaard @babel/eslint-parser@7.15.0 @babel/eslint-p
 
 And add `"extends": "lundegaard"` to your .eslintrc.
 
-### eslint-config-lundegaard/base
+## eslint-config-lundegaard/base
 
-The eslint-config-lundegaard without excluding rules for React.
+The eslint-config-lundegaard excluding rules for React.
 
 Add `"extends": "eslint-config-lundegaard/base"` to your `.eslintrc.*`.
 

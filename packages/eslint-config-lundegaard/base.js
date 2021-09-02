@@ -1,4 +1,6 @@
 module.exports = {
-	extends: ['./rules/base', './rules/imports'].map(require.resolve),
+	extends: ['./rules/base', './rules/imports', './rules/jest'].map(
+		require.resolve
+	),
 	rules: {},
 };

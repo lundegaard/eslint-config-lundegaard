@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.3.0](https://github.com/lundegaard/eslint-config-lundegaard/compare/v0.2.0...v0.3.0) (2021-09-15)
+
+
+### Features
+
+* react-hooks ([6c34494](https://github.com/lundegaard/eslint-config-lundegaard/commit/6c34494c26cfa5c5d45bbd7e1fbe469fe6f051b8))
+
+
+
+
+
 # [0.2.0](https://github.com/lundegaard/eslint-config-lundegaard/compare/v0.1.0...v0.2.0) (2021-09-02)
 
 

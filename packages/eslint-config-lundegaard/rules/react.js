@@ -14,7 +14,7 @@ module.exports = {
 		jest: true,
 		node: true,
 	},
-	plugins: ['react'],
+	plugins: ['react', 'react-hooks'],
 	settings: {
 		react: {
 			version: '16.4',
@@ -43,12 +43,6 @@ module.exports = {
 		'react/jsx-handler-names': 'error',
 		'react/jsx-indent-props': ['error', 'tab'],
 		'react/jsx-key': 'off',
-		'react/jsx-max-props-per-line': [
-			'error',
-			{
-				maximum: 3,
-			},
-		],
 		'react/jsx-no-bind': 'off',
 		'react/jsx-no-comment-textnodes': 'error',
 		'react/jsx-no-duplicate-props': 'error',
@@ -96,5 +90,10 @@ module.exports = {
 		'react/sort-prop-types': 'error',
 		'react/style-prop-object': 'error',
 		'react/void-dom-elements-no-children': 'error',
+		'react/jsx-max-props-per-line': 'off',
+		'react/jsx-fragments': ['error', 'element'],
+		'react/jsx-curly-brace-presence': ['error', 'never'],
+		'react-hooks/rules-of-hooks': 'error',
+		'react-hooks/exhaustive-deps': 'warn',
 	},
 };

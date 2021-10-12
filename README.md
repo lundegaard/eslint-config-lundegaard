@@ -48,7 +48,7 @@ There are two ESLint configurations for you to use.
 
 ## eslint-config-lundegaard
 
-The default export contains all of our ESLint rules, including ECMAScript 6+ and React. It requires `eslint`, `babel-eslint`, `eslint-plugin-babel`, `eslint-plugin-import` and `eslint-plugin-react`.
+The default export contains all of our ESLint rules, including ECMAScript 6+ and React.
 
 ### Installation
 

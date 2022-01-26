@@ -53,13 +53,14 @@ The default export contains all of our ESLint rules, including ECMAScript 6+ and
 ### Installation
 
 ```sh
-yarn add -D eslint-config-lundegaard @babel/eslint-parser@7.15.0 @babel/eslint-plugin@7.14.5 eslint@7.32.0 eslint-plugin-import@2.23.4 eslint-plugin-react@7.24.0 eslint-plugin-react-hooks@4.2.0 eslint-plugin-jest@^24.4.0 eslint-plugin-jest-formatting@^3.0.0
+yarn add -D @babel/eslint-parser\@^7.15.0 @babel/eslint-plugin\@^7.14.5 eslint\@^8.7.0 eslint-plugin-babel\@^5.3.0 eslint-plugin-import\@^2.25.4 eslint-plugin-jest\@^26.0.0 eslint-plugin-jest-formatting\@^3.1.0 eslint-plugin-react\@^7.28.0 eslint-plugin-react-hooks\@^4.3.0
 ```
 
 or
 ```sh
-npm install eslint-config-lundegaard @babel/eslint-parser@7.15.0 @babel/eslint-plugin@7.14.5 eslint@7.32.0 eslint-plugin-import@2.23.4 eslint-plugin-react@7.24.0 eslint-plugin-react-hooks@4.2.0 eslint-plugin-jest@^24.4.0 eslint-plugin-jest-formatting@^3.0.0 --save-dev
+npm install @babel/eslint-parser\@^7.15.0 @babel/eslint-plugin\@^7.14.5 eslint\@^8.7.0 eslint-plugin-babel\@^5.3.0 eslint-plugin-import\@^2.25.4 eslint-plugin-jest\@^26.0.0 eslint-plugin-jest-formatting\@^3.1.0 eslint-plugin-react\@^7.28.0 eslint-plugin-react-hooks\@^4.3.0
 ```
+
 
 And add `"extends": "lundegaard"` to your .eslintrc.
 

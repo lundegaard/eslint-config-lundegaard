@@ -69,6 +69,20 @@ The eslint-config-lundegaard excluding rules for React.
 
 Add `"extends": "eslint-config-lundegaard/base"` to your `.eslintrc.*`.
 
+## Example
+
+```js
+module.exports = {
+	extends: ['eslint-config-lundegaard'],
+};
+```
+or 
+```js
+module.exports = {
+	extends: ['eslint-config-lundegaard/base'],
+};
+```
+
 ## Related projects
 
 - [react-union](https://github.com/lundegaard/react-union) – Integrate React apps into various CMSs seamlessly.
